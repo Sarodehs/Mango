@@ -1,0 +1,76 @@
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+
+/* super start */
+.superbody{
+    background-color: #E4E4E4; 
+    padding-top: 4 rem; 
+    padding-bottom: 30px;
+    padding: 3rem;
+
+}
+.supback{
+    background-color: #fff;
+}
+.supercardh{
+    text-align: center;
+    padding: 2rem;
+}
+.supercard{
+    text-align:center;
+    color: #F8CA04;
+}
+.supercenter{
+    text-align: center;
+}
+.superredcolor{
+    color: #FF2D2D;
+    
+}
+.supercardred{
+    border-radius: 2rem;
+}
+.supermango1{
+    width: 2.5rem;
+}
+.supermango2{
+    width: 2rem;
+}
+.supermango3{
+    width: 1.5rem;
+
+} 
+
+@media screen and (max-width: 896px) {
+    .supback1{
+        margin-top: 2rem;
+    }
+}
+.supersize{
+  font-size: 2rem;
+  color: #635C5C;
+}
+.superyelcol{
+    color: #F8CA04;
+}
+.supercardback{
+    background-color: #2F2E41; 
+    padding-top: 4 rem; 
+    padding-bottom: 30px;
+    padding: 3rem;
+  
+}
+.superca{
+    text-align: center;
+    color: #Fff;
+    border-radius: 2rem;
+}
+.superblucol{
+    color: #2F2E41;
+    font-size: 1.5rem;
+}
+/* super end */

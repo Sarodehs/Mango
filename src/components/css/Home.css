@@ -1,0 +1,225 @@
+
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+/* home start */
+.banner{
+    background-image: url('../../../public/image/banner1.png');
+    background-size: cover;
+    height:120vh;
+    width:100vw;
+    z-index: -1;
+}
+@media screen and (max-width:896px){
+    .banner{
+        background-image: url('../../../public/image/Group410.png');
+        height: 120vh;
+        width: 100vw;
+        background-position-x: center;
+    }
+}
+.carousel1{
+    top:13rem;
+}
+
+.bannertext{
+    position: relative;
+    top: 20rem;
+  
+}
+ .hometextright{
+    text-align: right;
+} 
+@media screen and (max-width:1280px){
+    .hometextright{
+        text-align: center;
+    } 
+}
+.banner30{
+ font-size: 5rem;
+}
+.banner130{
+    color: #F8CA04;
+    font-size:2rem;
+}
+
+.banner2col{
+    color: #99CB1C;
+}
+.banner2head{
+    text-align: center;
+}
+.banner2mar{
+ background-image: url('../../../public/image/bgbanner.png');
+ background-repeat: no-repeat;
+ background-position:right center; 
+}
+.banner3mar{ 
+    background-image: url('../../../public/image/background1.png');
+    background-repeat: no-repeat;
+    background-position:left; 
+}
+.homecardback{
+    background-color: #2F2E41; 
+    padding-top: 4 rem; 
+    color: whitesmoke; 
+    padding-bottom: 30px;
+    padding: 3rem;
+    
+}
+.homecardh{
+   text-align: center; 
+   color:white;
+}
+.homecolor{
+    color: #F8CA04;
+}
+.homecolor1{
+    color: #F8CA04;
+    text-align: center;
+}
+.homeredi{
+    border-radius: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+
+}
+.homehard{
+    color: #FF2D2D;
+}
+.homeplus{
+    Color: #2F2E41;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:896px){
+    .homecard2h{       
+         color: black;
+         flex-shrink: 1;
+         height: inherit;      
+     }  
+}
+
+.homecard2h{
+
+    color: black;
+    border-radius: 2rem;
+    margin: 3rem;
+}
+.homecard2img{
+  position:relative; 
+  top:-3rem;
+  width:30%;
+  left:10rem;
+  border: solid white;
+  border-radius: 50rem;
+  border-width:9px;
+}
+@media screen and (max-width: 1280px) {
+    .homecard2img{
+    position:relative; 
+    top:-3rem;
+    width:30%;
+    left:6rem;
+    border: solid white;
+    border-radius: 50rem;
+    border-width:9px;
+  }  
+  }
+@media screen and (max-width: 896px) {
+  .homecard2img{
+  position:relative; 
+  top:-3rem;
+  width:30%;
+  left:7rem;
+  border: solid white;
+  border-radius: 50rem;
+  border-width:9px;
+}  
+}
+@media screen and (max-width: 425px) {
+    .homecard2img{
+    position:relative; 
+    top:-3rem;
+    width:70%;
+    left:1rem;
+    border: solid white;
+    border-radius: 50rem;
+    border-width:9px;
+  }  
+  }
+.textbanner{
+ height: 20%;
+ text-align: center;   
+}
+
+.homerest{
+    list-style-type: none;
+  
+    position: relative;
+  
+}
+@media screen and (max-width:896px){
+    .homeresth{
+        background-color: #F8CA04;
+        color: #2F2E41; 
+        font-size: medium;
+        border-radius: 5px;
+    }
+}
+.homeresth{
+    background-color: #F8CA04;
+    color: #2F2E41; 
+    border-radius: 5px;
+}
+.truk{
+    background-image: url("../../../public/image/Truk-of-Mangoes.png");
+    width: 100vw;
+    height:70vh;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.truk_p{
+    position: relative;
+    opacity: 0.7;
+    color: white;
+    top: 250px;
+    left: 250px;
+    background-color: black;
+    text-align: left;
+    padding: 2rem;
+    
+}
+@media screen and (max-width: 896px) {
+    .truk_p{
+    position: relative;
+    color: white;
+    opacity: 10;
+    top:300px ;
+    width: 100%;
+    background-color: #635C5C;
+    left: 0rem;
+    padding: 2rem;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .truk_p{
+        position: relative;
+        color: white;
+        opacity: 10;
+        top:300px ;
+        width: 100%;
+        background-color: #635C5C;
+        left: 0rem;
+        padding: 2rem;
+        }
+    }
+
+.homepaddi{
+    padding: 3rem;
+}
+/* home end */

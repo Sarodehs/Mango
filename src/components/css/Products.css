@@ -1,0 +1,155 @@
+
+
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+/* products start */
+.proorder{
+    padding: auto;
+    margin: auto;
+}
+@media screen and (max-width: 1024px) {
+    .proorder{
+        padding: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+}
+.procardback{
+    background-color: #2F2E41; 
+    padding-bottom: 30px;
+
+}
+.procardh{
+    text-align: center;
+}
+.propadd1{
+    padding: 1rem;
+
+}
+.procardinput{
+    width: 25rem;
+    height: 3rem;
+}
+.procardbut{
+    border-left: none; 
+    border-right: none;
+  
+}
+.procardinput1{
+    border: none;
+    background-color: transparent;
+    border: solid #fff 1px;
+
+    border-right: none;   
+}
+.procardbut1{
+    border-left: none;
+}
+.prosoluback{
+    background-image: url('../../../public/image/Mask.png');
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+.prosol{
+    position: relative;
+      
+    color:#FFF;
+    top: 20rem;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+
+}
+@media screen and (min-width: 896px) {
+    .prosol{
+
+        position: relative;
+        color:#2F2E41;
+        top: 20rem;
+        background-color: #FEEA99;
+        width: 400px;
+        text-align: left;
+        padding: 4rem;
+    }
+}
+.progiftback{
+    background-color: #E4E4E4; 
+    padding-top: 4 rem; 
+    padding-bottom: 30px;
+    padding: 3rem;
+}
+
+.progiftcard1{
+    padding: 4rem;
+    border-radius: 3rem;
+
+}
+.progiftcard2{
+    padding: 4rem;
+    border-radius: 3rem;
+
+}
+.progiftstart{
+    color: #F8CA04;
+}
+.proplus{
+    color: #2F2E41;
+    font-size: 2rem;
+}
+.progifthard{
+    color: pink;
+    font-size: 1.5rem;
+}
+.progiftsize{
+    font-size: 1.5rem;
+}
+.progrecolor{
+    color: #99CB1C;
+}
+.progiftbutt{
+    border-radius: 3rem;
+}
+.proredcolor{
+    color: #FF2D2D;
+}
+.progiftright{
+    text-align: right;
+}
+@media screen and (max-width: 1024px) {
+    .progiftright{
+        text-align: left;
+    } 
+}
+.proradi2{
+    border-radius: 2rem;
+}
+.procenter{
+    text-align: center;
+}
+.proyellcolor{
+    color: #F8CA04;
+}
+.prosuper{
+  color: inherit;
+  text-decoration: inherit;
+  
+}
+.proyellback{
+    background-color: #F8CA04;
+}
+.prowhicolor{
+    color:#fff ;
+}
+.proradi1{
+    border-radius: 2rem;
+}
+/* products end */

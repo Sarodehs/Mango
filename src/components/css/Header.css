@@ -1,0 +1,82 @@
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+
+    /* nav bar start   */
+.navbar a {
+    
+    display: block;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    color: black;
+} 
+      
+.navbar a:hover {
+    border-bottom: 4px solid #F8CA04;
+    color: #F8CA04;
+}
+      
+ .navbar a.active {
+    border-bottom: 4px solid #F8CA04;
+    color: #F8CA04;
+}
+
+.dropdown-menu{
+    width:25rem;
+    height: inherit;
+    background-color: #EEEEEE;   
+}
+.navdroptext{
+    text-align: left;
+    padding: 0.5rem;
+    color: #F8CA04;
+
+}
+.navdropbutt{
+    width: 9rem;
+    background-color: white;
+    border:  black ;
+    padding: 0.5rem;  
+}
+.navdropbutt a:hover {
+   background-color: #F8CA04;
+    color: #2F2E41;
+}
+      
+.navdropbutt a.active {
+    background-color: #F8CA04;
+    color: #2F2E41;
+}
+#navbutt{
+    border: none;
+    color: #F8CA04;
+    display: inline;
+}
+@media screen and (max-width:896px){
+    .navbar a {
+        display: block;
+        text-align: left;
+        padding: 15px 25px;
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+        background-color: #F8CA04;
+    } 
+          
+    .navbar a:hover {
+        border-bottom: 4px solid #Fff;
+        color: #fff;
+    }
+          
+     .navbar a.active {
+        border-bottom: 4px solid #Fff;
+        color: #Fff;
+    }
+}
+  /* nav bar end */

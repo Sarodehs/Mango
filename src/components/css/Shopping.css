@@ -1,0 +1,34 @@
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+
+/* shopping start */
+.shocard{
+    background-color: #E4E4E4; 
+    padding-top: 4 rem; 
+    padding-bottom: 30px;
+    padding: 3rem;
+
+}
+.shoback{
+    background-color: #fff;
+}
+.shotext{
+    color: #99CB1C;
+}
+.shodelete{
+    display: inline;
+}
+.shoprice{
+    color: #FF2D2D;
+}
+@media screen and (max-width: 896px) {
+    .shoprice1{
+        margin-top: 2rem;
+    }
+}
+
+/* shopping end */

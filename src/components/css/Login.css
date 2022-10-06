@@ -1,0 +1,39 @@
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+
+/* login start */
+.logincard{
+    background-color: #E4E4E4; 
+    padding-top: 4 rem; 
+    padding-bottom: 30px;
+    padding: 3rem;
+}
+@media screen and (max-width: 480px) {
+    .logincard1{
+        margin-top: 2rem;
+    }
+}
+.loginfor{
+    padding: 1rem;
+}
+.logintext{
+    color: #99CB1C;
+}
+.logindelete{
+    display: inline;
+}
+.loginprice{
+    color: #FF2D2D;
+}
+/* .loginbgimg{
+    background-image: url('./image/backgroundlo.png');
+    background-repeat: no-repeat;
+    background-position: top ; 
+    height: 100vh;
+
+   } */
+/* login end */

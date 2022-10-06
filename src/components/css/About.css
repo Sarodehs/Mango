@@ -1,0 +1,124 @@
+html,body{
+    overflow-x: hidden;
+        /* width:1920px;
+        height:1080px; */
+
+}
+
+
+
+/*about satrt*/
+.aboutpadd{
+    padding: 2rem;
+
+}
+
+.aboutdiv{
+    order: -1;
+}
+.aboutdiv1{
+    order: 2;
+}
+.aboutcenter{
+    text-align: center;
+}
+.aboutpadd1{
+    margin-top: 2rem;
+}
+.aboutcard{
+    width: 20rem;
+    height: 15rem;
+}
+.aboutcard1{
+    width: 20rem;
+    height: 12rem;
+}
+.aboutsidecard1{
+    padding: 1rem;
+}
+.aboutback{
+background-image: url('../../../public/image/Mask\ Group\ 2.png');
+background-repeat: no-repeat;
+height:100vh;
+background-size: cover;
+background-position-x: center;
+}
+
+.aboutwait{
+    position: relative;
+    color:#2F2E41;
+    top: 20rem;
+    background-color: #Fff;
+       text-align: left;
+    padding: 2rem;
+    height: 20rem;
+}
+@media screen and (min-width:1280px){
+  .aboutwait{
+    color:#2F2E41;
+    background-color: #FEEFD0;
+    text-align: left;
+    padding: 2rem;
+} 
+}
+
+.aboutbenefit{
+    background-color: #2F2E41; 
+    padding-top: 4 rem; 
+    color: whitesmoke; 
+    padding-bottom: 30px;
+    padding: 3rem;
+}
+.aboutbgimg{ 
+    background-image: url('../../../public/image/backgroundabou.png');
+    background-repeat: no-repeat;
+    background-position:right center; 
+}
+/* .aboutbgimg1{ 
+    background-image: url('./image/Group98.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    height:80vh;
+      
+} */
+.aboutcenter{
+    text-align: center;
+}
+.aboutcolor{
+    color: #99CB1C;
+}
+.videoback{
+    background-image: url('../../../public/image/Mask\ Group\ 8.png');
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+    background-position-x: center;
+    opacity: 0.7;
+}
+.videologo{
+    position: relative;
+    height: 9rem;
+    width: 11rem;
+    top: 20rem;
+    
+}
+@media screen and (max-width: 1280px) {
+    .videologo{
+        position: relative;
+        top: 20rem;
+
+    }
+}
+.aboutorder{
+    padding: auto;
+    margin: auto;
+}
+@media screen and (max-width:760px) {
+    .aboutorder{
+        padding: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+}
+/* about end */
